@@ -1,0 +1,434 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f8f9f3;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #e6e9e1; /* Light gray-green background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin: 40px auto;
+  max-width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #111;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(29, 34, 27, 1);
+  font-style: Syne;
+}
+
+/* Headline Section */
+.header {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.headline {
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  width: 70%;
+  margin-left: 230px;
+}
+
+/* Hero Image Section */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.hero-image img {
+  border-radius: 10px;
+  width: 1344px;
+  height: 672px;
+  gap: 0px;
+  border-radius: 22px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+}
+
+/* Intro Section */
+.intro {
+  font-family: Cutive;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  width: 45%;
+  margin-left: 400px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+/* Image Grid Section */
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.image-row.single {
+  margin-right: -350px;
+}
+
+.image-row img {
+  height: auto;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+/* Services Title */
+.services-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 90px;
+  white-space: nowrap;
+}
+
+/* Services List */
+.services-list {
+  display: flex;
+  gap: 180px;
+  flex: 1;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 520px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column1 .column2 p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Projects Section */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  width: 90%;
+  margin-left: 65px;
+}
+
+.project {
+  position: relative;
+  text-align: left;
+}
+
+.project img {
+  width: 100%;
+  display: block;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.project-category {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Footer Section */
+.footer-cards {
+  width: 90%;
+  margin-left: 50px;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #f1f1eb;
+  border-radius: 15px;
+  padding: 20px;
+  width: 22%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.client-name {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.client-title {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+  width: 70%;
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0d8;
+}
+
+.footer .brand {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+footer p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+
+.contact-button {
+  background-color: #f8f9f3;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 158px;
+  height: 48px;
+}
+
+/* media query start */
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .headline {
+    font-size: 90px;
+    margin-left: 150px;
+    width: 80%;
+  }
+
+  .intro {
+    font-size: 36px;
+    width: 60%;
+    margin-left: 100px;
+  }
+
+  .services-list {
+    gap: 120px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-cards {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .headline {
+    font-size: 70px;
+    width: 90%;
+    margin-left: 50px;
+  }
+
+  .intro {
+    font-size: 32px;
+    margin-left: 30px;
+    width: 70%;
+  }
+
+  .image-grid {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .image-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* For screens 480px and below (Phones) */
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .headline {
+    font-size: 50px;
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .intro {
+    font-size: 28px;
+    margin-left: 20px;
+    width: 80%;
+  }
+
+  .services-title {
+    font-size: 1.8rem;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-cards {
+    width: 100%;
+  }
+
+  .contact-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
